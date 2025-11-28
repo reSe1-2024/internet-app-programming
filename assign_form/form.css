@@ -1,0 +1,140 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.formlay{
+    margin: auto;
+    width: 60%;
+    height: auto;
+    background-color: rgb(87, 167, 237);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+img{
+    margin-right: 0.5rem;
+}
+
+input{
+    border:none;
+    font-size: 0.85rem;
+}
+
+
+.username{
+    width: 100%;
+    padding:1rem;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom:1rem;
+    
+}
+.password{
+    width: 100%;
+    padding:1rem;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom:1rem;
+    margin-top:1rem;
+
+}
+.confirmpassword{
+    width: 100%;
+    padding:1rem;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom:1rem;
+    margin-top:1rem;
+
+}
+.email{
+    width: 100%;
+    padding:1rem;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom:1rem;
+    margin-top:1rem;
+
+}
+#firstName{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 10rem;
+    padding-left: 2rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+#lastName{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 10rem;
+    padding-left: 2rem;
+    border-radius: 0.5rem;
+}
+.name{
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+
+}
+
+
+.technicals{
+    width: 100%;
+    padding:1.5rem;
+    border: none;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom:1rem;
+    margin-top:1rem;
+    color: rgb(128, 128, 128);
+
+}
+.terms{
+    width: 100%;
+    font-size: 0.9rem;
+    display: flex;
+    color: white;
+    padding-bottom: 1rem;
+    font-weight: bold;
+
+}
+.news{
+    width: 100%;
+    font-size: 0.9rem;
+    display: flex;
+    color: white;
+    border-radius: 2rem;
+    margin-bottom:1rem;
+    font-weight: bold;
+
+}
+button{
+    border: none;
+    border-radius: 0.8rem;
+    color: rgb(128, 128, 128);
+    padding: 1rem;
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(128, 128, 128);
+}
+a:visited{
+    color: rgb(158, 119, 195);
+}
+a:hover{
+    color: dodgerblue;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+  <form class="formlay">
+    <div class="username">
+        <img src="./user.png" alt="username" width="30px" height="30px">
+        <input type="text" name="userName" id="userName" placeholder="Username">
+    </div>
+    <div class="password">
+        <img src="./padlock.png" alt="password" width="30px" height="30px">
+        <input type="text" name="passWord" id="passWord" placeholder="Choose your password">
+    </div>
+    <div class="confirmpassword">
+        <img src="./padlock.png" alt="confirmPassword" width="30px" height="30px">
+        <input type="text" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+    </div>
+    <div class="email">
+        <img src="./message.png" alt="email" width="30px" height="30px">
+        <input type="text" name="email" id="email" placeholder="Email">
+    </div>
+    <div class="name">
+        <input type="text" name="firstName" id="firstName" placeholder="First Name">
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+    </div>
+    <select class="technicals" name="gender" id="gender" >
+        <option value="Gender"disabled selected hidden>Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <div class="terms">
+    <input type="checkbox" name="terms" id="terms" >
+    <label for="terms">I agree with terms and conditions</label>
+    </div>
+    <div class="news">
+    <input type="checkbox" name="news" id="news" >
+    <label for="news">I want to receive the news and offers</label>
+    </div>
+    
+    <button type="submit"><a href="#">Sign up</a></button>
+    
+  </form>  
+</body>
+</html>
